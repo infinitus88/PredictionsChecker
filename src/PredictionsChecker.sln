@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PredictionsChecker", "PredictionsChecker\PredictionsChecker.csproj", "{4636062E-92E3-47F5-B8F7-E842836B6834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionsChecker.Data.Access", "PredictionsChecker.Data.Access\PredictionsChecker.Data.Access.csproj", "{391C4429-C1BD-4649-8C3E-C5604C458EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionsChecker.Data.Models", "PredictionsChecker.Data.Models\PredictionsChecker.Data.Models.csproj", "{FC640A3A-4CCD-4308-B9E7-F84387F9EC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionsChecker.Api.Models", "PredictionsChecker.Api.Models\PredictionsChecker.Api.Models.csproj", "{80D65A94-0B8C-4088-95FF-AEA0D455E4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionsChecker.Services", "PredictionsChecker.Services\PredictionsChecker.Services.csproj", "{3C168ED3-AAD2-4143-A014-B94CBBAE1748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredictionsChecker.Api.Common", "PredictionsChecker.Api.Common\PredictionsChecker.Api.Common.csproj", "{B13534E4-DA02-47C5-9C32-B2E38C2B261C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4636062E-92E3-47F5-B8F7-E842836B6834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636062E-92E3-47F5-B8F7-E842836B6834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636062E-92E3-47F5-B8F7-E842836B6834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636062E-92E3-47F5-B8F7-E842836B6834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391C4429-C1BD-4649-8C3E-C5604C458EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391C4429-C1BD-4649-8C3E-C5604C458EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391C4429-C1BD-4649-8C3E-C5604C458EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391C4429-C1BD-4649-8C3E-C5604C458EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC640A3A-4CCD-4308-B9E7-F84387F9EC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC640A3A-4CCD-4308-B9E7-F84387F9EC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC640A3A-4CCD-4308-B9E7-F84387F9EC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC640A3A-4CCD-4308-B9E7-F84387F9EC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D65A94-0B8C-4088-95FF-AEA0D455E4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D65A94-0B8C-4088-95FF-AEA0D455E4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D65A94-0B8C-4088-95FF-AEA0D455E4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D65A94-0B8C-4088-95FF-AEA0D455E4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C168ED3-AAD2-4143-A014-B94CBBAE1748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C168ED3-AAD2-4143-A014-B94CBBAE1748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C168ED3-AAD2-4143-A014-B94CBBAE1748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C168ED3-AAD2-4143-A014-B94CBBAE1748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13534E4-DA02-47C5-9C32-B2E38C2B261C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13534E4-DA02-47C5-9C32-B2E38C2B261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13534E4-DA02-47C5-9C32-B2E38C2B261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13534E4-DA02-47C5-9C32-B2E38C2B261C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F19F713E-237F-4690-BD23-A9559C1E4F4F}
+	EndGlobalSection
+EndGlobal
