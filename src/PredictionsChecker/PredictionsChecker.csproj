@@ -8,5 +8,12 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.16" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.16" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.16" />
+  </ItemGroup>
+
 
 </Project>
